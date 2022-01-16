@@ -11,10 +11,10 @@ import './login.css';
 export const RegisterScreen = () => {
 
     const initialForm = {
-        email: 'testing1@test.com',
-        name: 'testing1',
-        password: '123456',
-        password2: '123456'
+        email: '',
+        name: '',
+        password: '',
+        password2: ''
     };
 
     const [ formValues, handleInputChange ] = useForm( initialForm );

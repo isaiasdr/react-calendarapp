@@ -12,8 +12,8 @@ import './login.css';
 export const LoginScreen = () => {
 
     const initialForm = {
-        email: 'testing1@test.com',
-        password: '123456'
+        email: '',
+        password: ''
     };
 
     const [ formValues, handleInputChange ] = useForm( initialForm );

@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <RegisterScreen /> should show correctly 1`] = `
+<div
+  className="container login-container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12 login-form-2"
+    >
+      <h3>
+        Registro
+      </h3>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            name="name"
+            onChange={[Function]}
+            placeholder="Nombre"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            name="email"
+            onChange={[Function]}
+            placeholder="Correo"
+            type="email"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            name="password"
+            onChange={[Function]}
+            placeholder="Contraseña"
+            type="password"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            name="password2"
+            onChange={[Function]}
+            placeholder="Repita la contraseña"
+            type="password"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="btnSubmit"
+            type="submit"
+            value="Crear cuenta"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

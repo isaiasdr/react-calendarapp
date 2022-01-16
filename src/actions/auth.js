@@ -65,7 +65,7 @@ export const startRegister = (name, email, password) => {
     }
 };
 
-const login = ( user ) => ({
+export const login = ( user ) => ({
     type: types.authLogin,
     payload: user
 });
@@ -91,7 +91,7 @@ export const startChecking = () => {
     };
 }
 
-const checkFinish = () => ({
+export const checkFinish = () => ({
     type: types.authCheckingFinish
 });
 
@@ -103,6 +103,6 @@ export const startLogout = () => {
     }
 }
 
-const logout = () => ({
+export const logout = () => ({
     type: types.authLogout
 });

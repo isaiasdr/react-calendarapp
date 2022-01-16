@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <AppRouter /> should show the Login Screen 1`] = `
+<div
+  className="container login-container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12 login-form-1"
+    >
+      <h3>
+        Ingreso
+      </h3>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            name="email"
+            onChange={[Function]}
+            placeholder="Correo"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            name="password"
+            onChange={[Function]}
+            placeholder="Contraseña"
+            type="password"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="btnSubmit"
+            type="submit"
+            value="Login"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tests in <AppRouter /> should show the wait 1`] = `
+<h5>
+  wait...
+</h5>
+`;
